@@ -19,7 +19,7 @@ cat > post-receive
 
 3. Copiamos el siguiente codigo en el fichero. La carpeta de destino especificada en WORK_TREE debe existir, sino falla.:
 
-#!/bin/sh
+'#!/bin/sh
 
 _TREE=/opt/node/apps/tiresias
 GIT_WORK_TREE=$_TREE git checkout -f
