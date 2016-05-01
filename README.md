@@ -30,6 +30,7 @@ npm install
 ls -la $_TREE
 echo "Starting service"
 
+
 Si la definicion del docker ya tiene npm y nodejs entonces y hacce la instalacion (tutum) entonces no es necesario hacer npm install
 
 4. Damos permisos de escritura. Es muy importante que el usuario ssh tenga acceso de escritura a este directorio y subdirectorios (Los del repositorio y el WORK_TREE)
